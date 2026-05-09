@@ -2,7 +2,7 @@ name: Mac Mini stock watch
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       test_ping:
