@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Polls Apple's Certified Refurbished store for an M4 Mac mini at $600 or less.
 On a new hit, posts to Slack via webhook. Dedupes via state.json.
