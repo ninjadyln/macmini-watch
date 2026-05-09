@@ -1,7 +1,3 @@
-import requests
-import os
-test_url = os.environ.get('SLACK_WEBHOOK_URL')
-requests.post(test_url, json={"content": "✅ Connection Successful! Your Mac Scout is active."})
 #!/usr/bin/env python3
 """
 Polls Apple's Certified Refurbished store for an M4 Mac mini at $600 or less.
