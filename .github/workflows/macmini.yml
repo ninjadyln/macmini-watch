@@ -9,7 +9,8 @@ on:
         description: "Send a Slack test ping and exit (no real check)"
         type: boolean
         default: false
-
+  repository_dispatch:
+    types: [manual-ping]
 permissions:
   contents: write
 
