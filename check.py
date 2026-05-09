@@ -12,7 +12,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-PRICE_CAP = int(os.environ.get("PRICE_CAP", "600"))
+PRICE_CAP = int(os.environ.get("PRICE_CAP", "900"))
 STATE_PATH = Path("state.json")
 SLACK_WEBHOOK_URL = os.environ.get("SLACK_WEBHOOK_URL", "").strip()
 # Optional: Slack user ID(s) to @-mention on real hits. Comma-separated for
@@ -101,7 +101,7 @@ def post_slack(hit: dict) -> None:
         f"{hit['variant']} at ${hit['price']}\n"
         f"{hit['url']}"
     )
-    payload = json.dumps({"text": text}).encode("utf-8")
+    payload = json.dumps({"content": text}).encode("utf-8")
     req = urllib.request.Request(
         SLACK_WEBHOOK_URL,
         data=payload,
