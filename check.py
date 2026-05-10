@@ -104,7 +104,10 @@ def post_slack(hit: dict) -> None:
     req = urllib.request.Request(
         SLACK_WEBHOOK_URL,
         data=payload,
-        headers={"Content-Type": "application/json"},
+        headers={
+            "Content-Type": "application/json",
+            "User-Agent": UA
+        },
         method="POST",
     )
     try:
