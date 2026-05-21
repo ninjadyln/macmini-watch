@@ -4,5 +4,11 @@
     "retailer": "Apple Refurb",
     "url": "https://www.apple.com/shop/refurbished/mac/mac-mini",
     "variant": "Refurbished Mac mini Apple M4"
+  },
+  "Apple Refurb|refurbished/mac\",\"partNumber\":\"FU9D3LL/A\",\"basePartNumber\":\"FU9D3\",\"commitCodeId\":0,\"customerCommitString\":\"Within 24 hours\"},\"sortOrder\":0,|599": {
+    "price": 599,
+    "retailer": "Apple Refurb",
+    "url": "https://www.apple.com/shop/refurbished/mac/mac-mini",
+    "variant": "refurbished/mac\",\"partNumber\":\"FU9D3LL/A\",\"basePartNumber\":\"FU9D3\",\"commitCodeId\":0,\"customerCommitString\":\"Within 24 hours\"},\"sortOrder\":0,"
   }
 }
